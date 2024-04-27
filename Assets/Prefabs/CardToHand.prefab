@@ -191,6 +191,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4299b03b411ab24cb9e98f74937d704, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayCard:
+  - cardName: 
+    power: 0
+    hp: 0
+    id: 0
+    artwork: {fileID: 0}
   displayId: 0
   id: 0
   cardName: 

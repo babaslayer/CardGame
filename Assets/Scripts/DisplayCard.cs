@@ -8,7 +8,8 @@ using TMPro;
 [System.Serializable]
 public class DisplayCard : MonoBehaviour
 {
-    public static Card displayCard;
+    [SerializeField]
+    public List<Card> displayCard = new List<Card>();
 
     public int displayId;
     public int id;
@@ -32,18 +33,18 @@ public class DisplayCard : MonoBehaviour
     {
         numberOfCardsInDeck = PlayerDeck.deckSize;
 
-        displayCard = CardDatabase.cardList[displayId];
+        displayCard[0] = CardDatabase.cardList[displayId];
 
         
     }
 
     void Update()
     {
-        id = displayCard.id;
-        cardName = displayCard.cardName;
-        power = displayCard.power;
-        hp = displayCard.hp;
-        artwork = displayCard.artwork;
+        id = displayCard[0].id;
+        cardName = displayCard[0].cardName;
+        power = displayCard[0].power;
+        hp = displayCard[0].hp;
+        artwork = displayCard[0].artwork;
 
         nameText.text = "" + cardName;
         hpText.text = "" + hp;
@@ -60,7 +61,7 @@ public class DisplayCard : MonoBehaviour
 
         if(this.tag == "Clone")
         {
-            displayCard = PlayerDeck.staticDeck[numberOfCardsInDeck - 1];
+            displayCard[0] = PlayerDeck.staticDeck[numberOfCardsInDeck - 1];
             numberOfCardsInDeck -= 1;
             PlayerDeck.deckSize -= 1;
             cardBack = false;

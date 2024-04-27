@@ -9,6 +9,7 @@ public class PlayerDeck : MonoBehaviour
     public static int deckSize;
     public List<Card> deck = new List<Card>();
     public static List<Card> staticDeck = new List<Card>();
+    public List<Card> container = new List<Card>();
 
     public GameObject cardInDeck1;
     public GameObject cardInDeck2;
@@ -52,6 +53,17 @@ public class PlayerDeck : MonoBehaviour
         if (deckSize == 0)
         {
             cardInDeck4.SetActive(false);
+        }
+    }
+
+    public void Shuffle()
+    {
+        for(int i = 0; i < deckSize; i++)
+        {
+            container[0] = deck[i];
+            int randomIndex = Random.Range(i, deckSize);
+            deck[i] = deck[randomIndex];
+            deck[randomIndex] = container[0];
         }
     }
 

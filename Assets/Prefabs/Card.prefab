@@ -190,6 +190,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4299b03b411ab24cb9e98f74937d704, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayCard:
+  - cardName: 
+    power: 0
+    hp: 0
+    id: 0
+    artwork: {fileID: 0}
   displayId: 0
   id: 0
   cardName: 
@@ -200,7 +206,7 @@ MonoBehaviour:
   hpText: {fileID: 4606790634013092442}
   powerText: {fileID: 4793678849489350796}
   artworkImage: {fileID: 2997935371976083533}
-  cardBack: 0
+  cardBack: 1
   Hand: {fileID: 0}
   numberOfCardsInDeck: 0
 --- !u!114 &620460657728870452
