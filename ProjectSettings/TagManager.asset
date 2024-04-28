@@ -39,6 +39,30 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: arkaplan
+    uniqueID: 2364683153
+    locked: 0
+  - name: yollar
+    uniqueID: 4261257873
+    locked: 0
+  - name: toprak
+    uniqueID: 377309051
+    locked: 0
+  - name: kampatesi
+    uniqueID: 1279428941
+    locked: 0
+  - name: "\xE7it"
+    uniqueID: 2377484815
+    locked: 0
+  - name: agac
+    uniqueID: 107240233
+    locked: 0
+  - name: "r\u0131tuals"
+    uniqueID: 2653947301
+    locked: 0
+  - name: ev
+    uniqueID: 522973817
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
@@ -53,7 +77,4 @@ TagManager:
     locked: 0
   - name: TopCard
     uniqueID: 2791632287
-    locked: 0
-  - name: Card Back
-    uniqueID: 2377484815
     locked: 0
