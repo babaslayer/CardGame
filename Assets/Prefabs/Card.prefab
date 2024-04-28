@@ -145,6 +145,7 @@ GameObject:
   - component: {fileID: 6902124726846478800}
   - component: {fileID: 6109523627532488824}
   - component: {fileID: 620460657728870452}
+  - component: {fileID: 6216846607887218371}
   m_Layer: 5
   m_Name: Card
   m_TagString: Untagged
@@ -195,8 +196,10 @@ MonoBehaviour:
     power: 0
     hp: 0
     id: 0
+    cost: 0
     artwork: {fileID: 0}
   displayId: 0
+  cost: 1
   id: 0
   cardName: 
   hp: 0
@@ -209,6 +212,20 @@ MonoBehaviour:
   cardBack: 1
   Hand: {fileID: 0}
   numberOfCardsInDeck: 0
+  canBeSummon: 0
+  summoned: 0
+  safeZone: {fileID: 0}
+  safeZone2: {fileID: 0}
+  safeZone3: {fileID: 0}
+  attackBorder: {fileID: 8621488907256186556, guid: 560dcd42da18c5c4fa76343c7e5bd8ae, type: 3}
+  Target: {fileID: 0}
+  Enemy: {fileID: 0}
+  summoningSickness: 0
+  cantAttack: 0
+  canAttack: 0
+  targeting: 0
+  targetingEnemy: 0
+  onlyThisCardAttack: 0
 --- !u!114 &620460657728870452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,6 +239,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cardBack: {fileID: 7245201674834366204}
+--- !u!114 &6216846607887218371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828141464376559544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 610c0c438898ff047ae8558b50f3163a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentToReturnTo: {fileID: 0}
+  placeholderParent: {fileID: 0}
 --- !u!1 &3049902003536355243
 GameObject:
   m_ObjectHideFlags: 0

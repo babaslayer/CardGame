@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class EnemyHP : MonoBehaviour
+public class PlayerHP : MonoBehaviour
 {
     public static float maxHp;
     public static float staticHp;

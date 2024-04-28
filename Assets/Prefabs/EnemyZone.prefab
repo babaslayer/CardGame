@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1735937876469622301}
   - component: {fileID: -6318502323742386162}
   m_Layer: 8
-  m_Name: SafeZone
+  m_Name: EnemyZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61,7 +61,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.23137257, g: 0.28235295, b: 0.5764706, a: 1}
+  m_Color: {r: 0.39607844, g: 0.10980392, b: 0.10980392, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
