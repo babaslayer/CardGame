@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Clone
   layers:
   - Default
   - TransparentFX
@@ -11,9 +12,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Card
+  - CardBack
+  - Zones
   - 
   - 
   - 
@@ -41,15 +42,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
+  - name: Artwork
     uniqueID: 1233237917
     locked: 0
   - name: Card
     uniqueID: 727850607
     locked: 0
-  - name: Artwork
-    uniqueID: 1469041059
+  - name: Text
+    uniqueID: 146749691
     locked: 0
-  - name: 4
-    uniqueID: 1771428377
+  - name: TopCard
+    uniqueID: 2791632287
+    locked: 0
+  - name: Card Back
+    uniqueID: 2377484815
     locked: 0
